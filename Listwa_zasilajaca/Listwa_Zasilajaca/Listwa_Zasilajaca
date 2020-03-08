@@ -1,0 +1,18 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+    <h1>C:\Users\bystr\Documents\KiCad\Listwa_zasilajaca\Listwa_Zasilajaca\Listwa_Zasilajaca.sch</h1>
+    <p>27.02.2020 17:31:25</p>
+    <p>Eeschema (5.1.5)-3</p>
+    <p><b>Component Count:</b>69</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Datasheet</th><th>Description</th><th>Vendor</th></tr><tr><td>C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15</td><td>15</td><td>CP</td><td>Device:CP</td><td>~</td><td>Polarized capacitor</td><td></td></tr><tr><td>D1, D2, D3, D4, D5, D6, D7, D8, D9, D10</td><td>10</td><td>15V</td><td>Diode:1.5KExxA</td><td>https://www.vishay.com/docs/88301/15ke.pdf</td><td>1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE</td><td></td></tr><tr><td>D11, D12, D13, D14, D15</td><td>5</td><td>30V</td><td>Diode:1.5KExxA</td><td>https://www.vishay.com/docs/88301/15ke.pdf</td><td>1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE</td><td></td></tr><tr><td>D16</td><td>1</td><td>D_Zener_3V3</td><td>Device:D_Zener</td><td>~</td><td>Zener diode</td><td></td></tr><tr><td>J1, J2, J3, J4, J5, J6, J7, J8, J9, J10, J11, J12, J13, J14, J15, J16, J17, J18, J19, J20, J21</td><td>21</td><td>ARK-2</td><td>SamacSys_Parts:ARK-2</td><td>https://componentsearchengine.com/Datasheets/1/8718.pdf</td><td>Fixed Terminal Blocks HORIZ. TERM. BLOCK</td><td></td></tr><tr><td>R1</td><td>1</td><td>11k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R2</td><td>1</td><td>1k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>U1, U2, U3, U4, U5, U6, U7, U8, U9, U10, U11, U12, U13, U14, U15</td><td>15</td><td>Fuse_Holder_5x20mm</td><td>SamacSys_Parts:Fuse_Holder_5x20mm</td><td>https://media.digikey.com/pdf/Data%20Sheets/Littelfuse%20PDFs/PTF075_77_78.pdf</td><td>FUSEHOLDER-OPEN 5X20MM UL94V0 PITCH 22/6</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

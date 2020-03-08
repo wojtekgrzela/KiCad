@@ -1,0 +1,22 @@
+Id,Oznaczenie,Obudowa,IloÅ›Ä‡,Oznaczenie,Dostawca i numer artykuÅ‚u,Komentarz
+1,"R31,R30,R29,R28,R27",R_0603_1608Metric,5,300,https://www.tme.eu/pl/details/smd0603-300r-1%25/rezystory-smd-0603/royal-ohm/0603saf3000t5e/,
+2,"R16,R15,R14,R13,R12",R_0603_1608Metric,5,10k,https://www.tme.eu/pl/details/smd0603-10k/rezystory-smd-0603/royal-ohm/0603saj0103t5e/ ,
+3,R11,R_0603_1608Metric,1,2k,https://www.tme.eu/pl/details/smd0603-2k-1%25/rezystory-smd-0603/royal-ohm/0603saf2001t5e/,
+4,R10,R_0603_1608Metric,1,600,https://www.tme.eu/pl/details/smd0603-620r-1%25/rezystory-smd-0603/royal-ohm/0603saf6200t5e/,"Tak, wiem, napisane jest 600 Ohmów a da³em linka do 620 – jest git ;)"
+5,"R5,R4,R3,R2,R1",R_0603_1608Metric,5,1k,https://www.tme.eu/pl/details/wf06p-1k-5%25/rezystory-smd-0603/walsin/wf06p102jtl/,
+6,"Q5,Q4,Q3,Q2,Q1",SOT-23,5,Q_NPN_BEC,https://www.tme.eu/pl/details/mmbt3904-lit/tranzystory-npn-smd/lite-on-semiconductor-corp/mmbt3904/,
+7,"K5,K4,K3,K2,K1",AZ943,5,AZ9431CH5D,https://www.tme.eu/pl/details/az943-1ch-5de/przekazniki-elektromagn-miniaturowe/zettler/,
+8,"J30,J29,J28,J15,J14,J13,J12,J11",PinHeader_1x03_P2.54mm_Vertical,8,Conn_01x03,https://www.tme.eu/pl/details/zl201-30g/listwy-i-gniazda-kolkowe/connfly/ds1021-1-30sf11/,"Mo¿na kupiæ kilka i bêdzie spokój, siê podzieli potem na kawa³ki"
+9,"J27,J26,J25,J9,J8,J7,J6,J5,J4,J2",8719,10,ARK-3,https://www.tme.eu/pl/details/tb-5.0-p-3p/listwy-zaciskowe-do-druku/ninigi/,
+10,"J24,J19,J18",PinHeader_1x02_P2.54mm_Vertical,3,Conn_01x02,https://www.tme.eu/pl/details/zl201-30g/listwy-i-gniazda-kolkowe/connfly/ds1021-1-30sf11/,"Mo¿na kupiæ kilka i bêdzie spokój, siê podzieli potem na kawa³ki"
+11,"J23,J17,J16,J1",SHDR2W99P0X500_1X2_1000X760X1000P,4,ARK-2,https://www.tme.eu/pl/details/tb-5.0-p-2p/listwy-zaciskowe-do-druku/ninigi/,
+12,J22,PinHeader_2x02_P2.54mm_Vertical,1,Conn_02x02_Odd_Even,https://www.tme.eu/pl/details/zl201-30g/listwy-i-gniazda-kolkowe/connfly/ds1021-1-30sf11/,"Mo¿na kupiæ kilka i bêdzie spokój, siê podzieli potem na kawa³ki"
+13,J21,HDRV6W64P254X254_2X3_1524X895X915P,1,SENS3,https://www.tme.eu/pl/details/t821-1-06-s1/zlacza-idc/amphenol/t821106a1s100ceu/,To samo
+14,J20,HDRV6W64P254X254_2X3_1524X895X915P,1,SENS6,https://www.tme.eu/pl/details/t821-1-06-s1/zlacza-idc/amphenol/t821106a1s100ceu/,
+15,J10,HDRV6W64P254X254_2X3_1524X895X915P,1,SENS5,https://www.tme.eu/pl/details/t821-1-06-s1/zlacza-idc/amphenol/t821106a1s100ceu/,
+16,J3,HDRV6W64P254X254_2X3_1524X895X915P,1,SENS4,https://www.tme.eu/pl/details/t821-1-06-s1/zlacza-idc/amphenol/t821106a1s100ceu/,
+17,"D12,D11,D10,D7,D6",D_SOD-123,5,"3,3V",https://www.tme.eu/pl/details/bzt52c3v3-7-f/diody-zenera-smd/diodes-incorporated/,
+18,"D9,D8",D_0603_1608Metric,2,LED,https://www.tme.eu/pl/details/ll-s194pvc-v1-2b/diody-led-smd-kolorowe/lucky-light/ ,
+19,"D5,D4,D3,D2,D1",D_SOD-523,5,D,https://www.tme.eu/pl/details/1n4148wtf-lit/diody-uniwersalne-smd/lite-on-semiconductor-corp/1n4148wtf/,
+20,"C10,C9,C8,C7,C6,C5,C4",C_0603_1608Metric,7,100n,https://www.tme.eu/pl/details/cc0603krx7r9104/kondensatory-mlcc-smd-0603/yageo/cc0603krx7r9bb104/,
+21,"C3,C2,C1",CP_Radial_D5.0mm_P2.00mm,3,CP,https://www.tme.eu/pl/details/pf1v330mnn0511u/kondensatory-elektrolityczne-tht-105degc/elite/,

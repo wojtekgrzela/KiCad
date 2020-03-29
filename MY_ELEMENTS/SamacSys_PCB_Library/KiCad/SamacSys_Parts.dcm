@@ -1,0 +1,59 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1140084168
+D Memory Card Connectors Micro SD 8 Pin PCB Gold
+F https://componentsearchengine.com/Datasheets/1/1140084168.pdf
+$ENDCMP
+#
+$CMP 64600001223
+D LITTELFUSE - 64600001223 - FUSE BLOCK, 5X20MM, THROUGH HOLE
+F https://componentsearchengine.com/Datasheets/1/64600001223.pdf
+$ENDCMP
+#
+$CMP ARK-2
+D Fixed Terminal Blocks HORIZ. TERM. BLOCK
+F https://componentsearchengine.com/Datasheets/1/8718.pdf
+$ENDCMP
+#
+$CMP ARK-3
+D Fixed Terminal Blocks HORZ TERM BLK
+F https://componentsearchengine.com/Datasheets/1/8719.pdf
+$ENDCMP
+#
+$CMP AZ9431CH5D
+D 15 AMP MINIATURE PC BOARD RELAY
+F https://www.azettler.com/pdfs/az943.pdf
+$ENDCMP
+#
+$CMP Fuse_Holder_5x20mm
+D FUSEHOLDER-OPEN 5X20MM UL94V0 PITCH 22/6
+F https://media.digikey.com/pdf/Data%20Sheets/Littelfuse%20PDFs/PTF075_77_78.pdf
+$ENDCMP
+#
+$CMP IDC_2x3_2.54mm
+D HEADER, VERTICAL, 2.54MM, 6WAY Amphenol T821 Series, 2.54mm Pitch 6 Way 2 Row Straight PCB Header, Solder Termination, 3A
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP STM32F103VET6
+D STM32F103VET6, 32 bit ARM Cortex M3 Microcontroller 72MHz 512kb Flash, 64kb RAM, USB I2C SPI 100-Pin LQFP
+F https://componentsearchengine.com/Datasheets/1/STM32F103VET6.pdf
+$ENDCMP
+#
+$CMP Transil
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP SS-6488-FLS
+D Conn Modular Jack F 8 POS 2.54mm Solder RA Thru-Hole 8 Terminal 1 Port
+K
+F https://componentsearchengine.com/Datasheets/1/SS-6488-FLS.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -39,6 +39,16 @@ D Single Precision Timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
+$CMP SRN6045TA-6R8M
+D Bourns SRN6045TA Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 4.7 H +/-20% Semi-Shielded 4.5A Idc Q:15
+F https://componentsearchengine.com/Datasheets/1/SRN6045TA-4R7M.pdf
+$ENDCMP
+#
+$CMP SS-6488-FLS
+D Conn Modular Jack F 8 POS 2.54mm Solder RA Thru-Hole 8 Terminal 1 Port
+F https://componentsearchengine.com/Datasheets/1/SS-6488-FLS.pdf
+$ENDCMP
+#
 $CMP STM32F103VET6
 D STM32F103VET6, 32 bit ARM Cortex M3 Microcontroller 72MHz 512kb Flash, 64kb RAM, USB I2C SPI 100-Pin LQFP
 F https://componentsearchengine.com/Datasheets/1/STM32F103VET6.pdf
@@ -48,12 +58,6 @@ $CMP Transil
 D Diode
 K diode
 F ~
-$ENDCMP
-#
-$CMP SS-6488-FLS
-D Conn Modular Jack F 8 POS 2.54mm Solder RA Thru-Hole 8 Terminal 1 Port
-K
-F https://componentsearchengine.com/Datasheets/1/SS-6488-FLS.pdf
 $ENDCMP
 #
 #End Doc Library

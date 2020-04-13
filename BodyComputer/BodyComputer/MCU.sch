@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
 Title "Body Computer"
-Date "2020-04-01"
+Date "2020-04-12"
 Rev "1.0"
 Comp "Wojciech Grzeliński"
 Comment1 "wojtekgrzela@gmail.com"
@@ -1526,4 +1526,11 @@ F 3 "" H 7150 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7150 2800 7150 2750
+Wire Wire Line
+	3250 3900 3250 3800
+Wire Wire Line
+	3250 3800 3150 3800
+Connection ~ 3250 3900
+Text HLabel 3150 3800 0    50   Input ~ 0
+Diag_LED_8
 $EndSCHEMATC

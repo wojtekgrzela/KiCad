@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Body Computer"
-Date "2020-04-01"
+Date "2020-04-12"
 Rev "1.0"
 Comp "Wojciech Grzeliński"
 Comment1 "wojtekgrzela@gmail.com"
@@ -589,12 +589,6 @@ F 3 "" H 2950 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 5750 3250 5750
-Wire Wire Line
-	3250 5750 3250 6000
-Wire Wire Line
-	3250 6000 2950 6000
-Wire Wire Line
 	2950 6000 2950 5900
 Wire Wire Line
 	3350 5250 2550 5250
@@ -907,87 +901,37 @@ Wire Notes Line
 $Comp
 L Connector_Generic:Conn_01x02 J35
 U 1 1 5FE3C840
-P 3750 2500
-F 0 "J35" H 3830 2492 50  0000 L CNN
-F 1 "Conn_01x02" H 3830 2401 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3750 2500 50  0001 C CNN
-F 3 "~" H 3750 2500 50  0001 C CNN
-	1    3750 2500
+P 4350 2300
+F 0 "J35" H 4430 2292 50  0000 L CNN
+F 1 "Conn_01x02" H 4430 2201 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4350 2300 50  0001 C CNN
+F 3 "~" H 4350 2300 50  0001 C CNN
+	1    4350 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 2500 3450 2500
-Wire Wire Line
-	3550 2600 3450 2600
-Wire Wire Line
-	3450 2600 3450 2700
-$Comp
-L power:GND #PWR?
-U 1 1 5FE49DD6
-P 3450 2700
-AR Path="/5F25F1A8/5FE49DD6" Ref="#PWR?"  Part="1" 
-AR Path="/5E6DC799/5FE49DD6" Ref="#PWR0141"  Part="1" 
-F 0 "#PWR0141" H 3450 2450 50  0001 C CNN
-F 1 "GND" H 3455 2527 50  0000 C CNN
-F 2 "" H 3450 2700 50  0001 C CNN
-F 3 "" H 3450 2700 50  0001 C CNN
-	1    3450 2700
-	1    0    0    -1  
-$EndComp
-Text GLabel 3450 2500 0    50   Input ~ 0
+	4150 2300 4050 2300
+Text GLabel 4050 2300 0    50   Input ~ 0
 VIN
-Text Notes 3300 2300 0    50   ~ 0
+Text Notes 3650 2100 0    50   ~ 0
 FAN1 connector
-Wire Notes Line
-	4350 2150 4350 2950
-Wire Notes Line
-	4350 2950 3200 2950
-Wire Notes Line
-	3200 2950 3200 2150
-Wire Notes Line
-	3200 2150 4350 2150
 $Comp
 L Connector_Generic:Conn_01x02 J37
 U 1 1 5E8F875D
-P 5550 2850
-F 0 "J37" H 5630 2842 50  0000 L CNN
-F 1 "Conn_01x02" H 5630 2751 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5550 2850 50  0001 C CNN
-F 3 "~" H 5550 2850 50  0001 C CNN
-	1    5550 2850
+P 4350 2550
+F 0 "J37" H 4430 2542 50  0000 L CNN
+F 1 "Conn_01x02" H 4430 2451 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4350 2550 50  0001 C CNN
+F 3 "~" H 4350 2550 50  0001 C CNN
+	1    4350 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 2850 5250 2850
-Wire Wire Line
-	5350 2950 5250 2950
-Wire Wire Line
-	5250 2950 5250 3050
-$Comp
-L power:GND #PWR?
-U 1 1 5E8F8766
-P 5250 3050
-AR Path="/5F25F1A8/5E8F8766" Ref="#PWR?"  Part="1" 
-AR Path="/5E6DC799/5E8F8766" Ref="#PWR0147"  Part="1" 
-F 0 "#PWR0147" H 5250 2800 50  0001 C CNN
-F 1 "GND" H 5255 2877 50  0000 C CNN
-F 2 "" H 5250 3050 50  0001 C CNN
-F 3 "" H 5250 3050 50  0001 C CNN
-	1    5250 3050
-	1    0    0    -1  
-$EndComp
-Text GLabel 5250 2850 0    50   Input ~ 0
+	4150 2550 4050 2550
+Text GLabel 4050 2550 0    50   Input ~ 0
 VIN
-Text Notes 5100 2650 0    50   ~ 0
+Text Notes 4300 2100 0    50   ~ 0
 FAN2 connector
-Wire Notes Line
-	6150 2500 6150 3300
-Wire Notes Line
-	6150 3300 5000 3300
-Wire Notes Line
-	5000 3300 5000 2500
-Wire Notes Line
-	5000 2500 6150 2500
 $Comp
 L Device:R R?
 U 1 1 5EA9A6FA
@@ -1038,4 +982,135 @@ Wire Notes Line
 	8400 2200 10700 2200
 Wire Notes Line
 	8400 700  10700 700 
+$Comp
+L Device:R R?
+U 1 1 5E9991C0
+P 3700 2950
+AR Path="/5E667041/5E9991C0" Ref="R?"  Part="1" 
+AR Path="/5E731526/5E9991C0" Ref="R?"  Part="1" 
+AR Path="/5E6DC799/5E9991C0" Ref="R171"  Part="1" 
+F 0 "R171" V 3800 3000 50  0000 L CNN
+F 1 "100" V 3800 2850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3630 2950 50  0001 C CNN
+F 3 "~" H 3700 2950 50  0001 C CNN
+	1    3700 2950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3800 2550 3750 2550
+$Comp
+L Device:D D?
+U 1 1 5E9991CE
+P 3550 2300
+AR Path="/5E731526/5E9991CE" Ref="D?"  Part="1" 
+AR Path="/5E6DC799/5E9991CE" Ref="D6"  Part="1" 
+F 0 "D6" H 3550 2084 50  0000 C CNN
+F 1 "D" H 3550 2175 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 3550 2300 50  0001 C CNN
+F 3 "~" H 3550 2300 50  0001 C CNN
+	1    3550 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2300 3800 2400
+Wire Wire Line
+	3700 2300 3800 2300
+Wire Wire Line
+	3400 2300 3350 2300
+Wire Wire Line
+	3350 2300 3350 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5E9991E5
+P 3250 3100
+AR Path="/5F25F1A8/5E9991E5" Ref="#PWR?"  Part="1" 
+AR Path="/5E6DC799/5E9991E5" Ref="#PWR0141"  Part="1" 
+AR Path="/5E667041/5E9991E5" Ref="#PWR?"  Part="1" 
+AR Path="/5E6671BF/5E9991E5" Ref="#PWR?"  Part="1" 
+AR Path="/5E731526/5E9991E5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0141" H 3250 2850 50  0001 C CNN
+F 1 "GND" H 3255 2927 50  0000 C CNN
+F 2 "" H 3250 3100 50  0001 C CNN
+F 3 "" H 3250 3100 50  0001 C CNN
+	1    3250 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2550 3350 2550
+$Comp
+L Device:R R?
+U 1 1 5E9991ED
+P 3400 2950
+AR Path="/5E667041/5E9991ED" Ref="R?"  Part="1" 
+AR Path="/5E731526/5E9991ED" Ref="R?"  Part="1" 
+AR Path="/5E6DC799/5E9991ED" Ref="R170"  Part="1" 
+F 0 "R170" V 3500 3000 50  0000 L CNN
+F 1 "10k" V 3500 2850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3330 2950 50  0001 C CNN
+F 3 "~" H 3400 2950 50  0001 C CNN
+	1    3400 2950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3550 3000 3550 2950
+Wire Wire Line
+	3550 2850 3550 2950
+Connection ~ 3550 2950
+Wire Wire Line
+	3800 2400 4150 2400
+Connection ~ 3800 2400
+Wire Wire Line
+	3800 2400 3800 2550
+Connection ~ 3350 2550
+$Comp
+L Transistor_FET:IRLML2060 Q?
+U 1 1 5E9991BA
+P 3550 2650
+AR Path="/5E664F82/5E9991BA" Ref="Q?"  Part="1" 
+AR Path="/5E731526/5E9991BA" Ref="Q?"  Part="1" 
+AR Path="/5E6DC799/5E9991BA" Ref="Q18"  Part="1" 
+F 0 "Q18" V 3801 2650 50  0000 C CNN
+F 1 "IRLML2060" H 3754 2605 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3750 2575 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 3550 2650 50  0001 L CNN
+	1    3550 2650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3250 2550 3250 2950
+Wire Wire Line
+	3250 3100 3250 2950
+Connection ~ 3250 2950
+Wire Wire Line
+	3850 2950 3950 2950
+Wire Wire Line
+	3800 2650 3800 2550
+Wire Wire Line
+	3800 2650 4150 2650
+Connection ~ 3800 2550
+Wire Notes Line
+	3150 2000 5100 2000
+Wire Notes Line
+	3150 2000 3150 3350
+Wire Notes Line
+	5100 2000 5100 3350
+Wire Notes Line
+	3150 3350 5100 3350
+Text HLabel 3950 2950 2    50   Input ~ 0
+FAN_CONTROL
+$Comp
+L Connector_Generic:Conn_01x02 J39
+U 1 1 5EAB39B7
+P 3050 6200
+F 0 "J39" V 3150 6300 50  0000 L CNN
+F 1 "Conn_01x02" V 3050 6300 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3050 6200 50  0001 C CNN
+F 3 "~" H 3050 6200 50  0001 C CNN
+	1    3050 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 6000 3050 5750
+Wire Wire Line
+	3050 5750 3350 5750
 $EndSCHEMATC

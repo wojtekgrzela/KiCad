@@ -60,4 +60,16 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP 4966
+D Terminals TERMINAL .250X.032
+K
+F https://componentsearchengine.com/Datasheets/1/4966.pdf
+$ENDCMP
+#
+$CMP NTE5817HC
+D 10 Amp Plastic Silicon Rectifier
+K
+F http://www.nteinc.com/specs/5800to5899/pdf/nte5812hc_17hc.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title "Body Computer"
-Date "2020-04-12"
+Date "2020-04-17"
 Rev "1.0"
 Comp "Wojciech Grzeliński"
 Comment1 "wojtekgrzela@gmail.com"

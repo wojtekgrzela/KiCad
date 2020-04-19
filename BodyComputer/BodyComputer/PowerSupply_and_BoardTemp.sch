@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Body Computer"
-Date "2020-04-12"
+Date "2020-04-17"
 Rev "1.0"
 Comp "Wojciech Grzeliński"
 Comment1 "wojtekgrzela@gmail.com"
@@ -637,7 +637,7 @@ $EndComp
 Wire Wire Line
 	1750 6000 1750 5900
 Wire Wire Line
-	1750 6800 1750 6900
+	1750 6800 1750 6850
 $Comp
 L power:GND #PWR?
 U 1 1 5EA873FC
@@ -653,7 +653,7 @@ F 3 "" H 1750 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 6800 2800 6900
+	2800 6800 2800 6850
 $Comp
 L power:GND #PWR?
 U 1 1 5EA890AF
@@ -1346,4 +1346,52 @@ Wire Wire Line
 	7250 4200 7400 4200
 Wire Wire Line
 	7400 4200 7400 4100
+$Comp
+L Device:C C?
+U 1 1 5F29B791
+P 2050 6650
+AR Path="/5E664F82/5F29B791" Ref="C?"  Part="1" 
+AR Path="/5E667041/5F29B791" Ref="C64"  Part="1" 
+F 0 "C64" H 2165 6696 50  0000 L CNN
+F 1 "100n" H 2165 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 6500 50  0001 C CNN
+F 3 "~" H 2050 6650 50  0001 C CNN
+	1    2050 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F2A2550
+P 3100 6650
+AR Path="/5E664F82/5F2A2550" Ref="C?"  Part="1" 
+AR Path="/5E667041/5F2A2550" Ref="C65"  Part="1" 
+F 0 "C65" H 3215 6696 50  0000 L CNN
+F 1 "100n" H 3215 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 6500 50  0001 C CNN
+F 3 "~" H 3100 6650 50  0001 C CNN
+	1    3100 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 6800 2050 6850
+Wire Wire Line
+	2050 6850 1750 6850
+Connection ~ 1750 6850
+Wire Wire Line
+	1750 6850 1750 6900
+Wire Wire Line
+	2050 6500 2050 6400
+Wire Wire Line
+	2050 6400 1750 6400
+Wire Wire Line
+	3100 6500 3100 6400
+Wire Wire Line
+	3100 6400 2800 6400
+Wire Wire Line
+	3100 6800 3100 6850
+Wire Wire Line
+	3100 6850 2800 6850
+Connection ~ 2800 6850
+Wire Wire Line
+	2800 6850 2800 6900
 $EndSCHEMATC

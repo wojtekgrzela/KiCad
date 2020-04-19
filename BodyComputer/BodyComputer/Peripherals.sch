@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Body Computer"
-Date "2020-04-12"
+Date "2020-04-17"
 Rev "1.0"
 Comp "Wojciech Grzeliński"
 Comment1 "wojtekgrzela@gmail.com"
@@ -985,15 +985,15 @@ Wire Notes Line
 $Comp
 L Device:R R?
 U 1 1 5E9991C0
-P 3700 2950
+P 3950 2950
 AR Path="/5E667041/5E9991C0" Ref="R?"  Part="1" 
 AR Path="/5E731526/5E9991C0" Ref="R?"  Part="1" 
 AR Path="/5E6DC799/5E9991C0" Ref="R171"  Part="1" 
-F 0 "R171" V 3800 3000 50  0000 L CNN
-F 1 "100" V 3800 2850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3630 2950 50  0001 C CNN
-F 3 "~" H 3700 2950 50  0001 C CNN
-	1    3700 2950
+F 0 "R171" V 4050 3000 50  0000 L CNN
+F 1 "100" V 4050 2850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3880 2950 50  0001 C CNN
+F 3 "~" H 3950 2950 50  0001 C CNN
+	1    3950 2950
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
@@ -1052,8 +1052,6 @@ F 3 "~" H 3400 2950 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	3550 3000 3550 2950
-Wire Wire Line
 	3550 2850 3550 2950
 Connection ~ 3550 2950
 Wire Wire Line
@@ -1082,7 +1080,7 @@ Wire Wire Line
 	3250 3100 3250 2950
 Connection ~ 3250 2950
 Wire Wire Line
-	3850 2950 3950 2950
+	4100 2950 4200 2950
 Wire Wire Line
 	3800 2650 3800 2550
 Wire Wire Line
@@ -1096,7 +1094,7 @@ Wire Notes Line
 	5100 2000 5100 3350
 Wire Notes Line
 	3150 3350 5100 3350
-Text HLabel 3950 2950 2    50   Input ~ 0
+Text HLabel 4200 2950 2    50   Input ~ 0
 FAN_CONTROL
 $Comp
 L Connector_Generic:Conn_01x02 J39
@@ -1113,4 +1111,6 @@ Wire Wire Line
 	3050 6000 3050 5750
 Wire Wire Line
 	3050 5750 3350 5750
+Wire Wire Line
+	3800 2950 3550 2950
 $EndSCHEMATC

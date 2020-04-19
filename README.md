@@ -1,8 +1,11 @@
 # KiCad
 
 My PCB projects in KiCad
- - BodyComputer [WIP]
+ - BodyComputer [DONE]
+ - DRL_Driver [DONE]
+ - GPS_Adapter [DONE]
  - Listwa_zasilajaca (Power_rail) [DONE]
+ - MOSFET_Rail [DONE]
  - Plytka_Dla_Peryferiow (Peripheral_Board) [DONE]
  
  MY_ELEMENTS - Electric components' symbols and footprints from the Internet.

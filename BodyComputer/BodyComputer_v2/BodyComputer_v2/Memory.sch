@@ -1,0 +1,568 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Memory_EEPROM:24LC128 U?
+U 1 1 602026A0
+P 8350 2400
+F 0 "U?" H 8350 2881 50  0000 C CNN
+F 1 "EEPROM" H 8350 2790 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 8350 2400 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21191s.pdf" H 8350 2400 50  0001 C CNN
+	1    8350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6020471F
+P 4950 4450
+AR Path="/60EBB99E/6020471F" Ref="#PWR?"  Part="1" 
+AR Path="/602025D1/6020471F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4950 4200 50  0001 C CNN
+F 1 "GND" H 4955 4277 50  0000 C CNN
+F 2 "" H 4950 4450 50  0001 C CNN
+F 3 "" H 4950 4450 50  0001 C CNN
+	1    4950 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2300 8850 2300
+Text HLabel 8850 2300 2    50   Input ~ 0
+EEPROM_SDA
+Wire Wire Line
+	8750 2400 8850 2400
+Text HLabel 8850 2400 2    50   Input ~ 0
+EEPROM_SCL
+$Comp
+L Device:C_Small C?
+U 1 1 602080C6
+P 7350 2400
+AR Path="/5FAC00ED/602080C6" Ref="C?"  Part="1" 
+AR Path="/60EBB99E/602080C6" Ref="C?"  Part="1" 
+AR Path="/602025D1/602080C6" Ref="C?"  Part="1" 
+F 0 "C?" H 7442 2446 50  0000 L CNN
+F 1 "100n" H 7442 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 2400 50  0001 C CNN
+F 3 "~" H 7350 2400 50  0001 C CNN
+	1    7350 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2700 8350 2800
+Wire Wire Line
+	8350 2800 7850 2800
+Wire Wire Line
+	7850 2800 7850 2500
+Wire Wire Line
+	7850 2500 7950 2500
+Wire Wire Line
+	7950 2400 7850 2400
+Wire Wire Line
+	7850 2400 7850 2500
+Connection ~ 7850 2500
+Wire Wire Line
+	7950 2300 7850 2300
+Wire Wire Line
+	7850 2300 7850 2400
+Connection ~ 7850 2400
+Wire Wire Line
+	8350 2900 8350 2800
+Connection ~ 8350 2800
+Wire Wire Line
+	8350 2000 7350 2000
+Wire Wire Line
+	7350 2000 7350 2300
+Wire Wire Line
+	8350 2000 8350 2100
+Wire Wire Line
+	7350 2500 7350 2800
+Wire Wire Line
+	7350 2800 7850 2800
+Connection ~ 7850 2800
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6020B1ED
+P 7350 1900
+AR Path="/60EBB99E/6020B1ED" Ref="#PWR?"  Part="1" 
+AR Path="/602025D1/6020B1ED" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7350 1750 50  0001 C CNN
+F 1 "+3V3" H 7365 2073 50  0000 C CNN
+F 2 "" H 7350 1900 50  0001 C CNN
+F 3 "" H 7350 1900 50  0001 C CNN
+	1    7350 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 1900 7350 2000
+Connection ~ 7350 2000
+Text HLabel 8850 2500 2    50   Input ~ 0
+EEPROM_WP1
+$Comp
+L Memory_EEPROM:24LC128 U?
+U 1 1 6021183A
+P 8350 4000
+F 0 "U?" H 8350 4481 50  0000 C CNN
+F 1 "EEPROM" H 8350 4390 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 8350 4000 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21191s.pdf" H 8350 4000 50  0001 C CNN
+	1    8350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60211840
+P 8350 4500
+AR Path="/60EBB99E/60211840" Ref="#PWR?"  Part="1" 
+AR Path="/602025D1/60211840" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8350 4250 50  0001 C CNN
+F 1 "GND" H 8355 4327 50  0000 C CNN
+F 2 "" H 8350 4500 50  0001 C CNN
+F 3 "" H 8350 4500 50  0001 C CNN
+	1    8350 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3900 8850 3900
+Text HLabel 8850 3900 2    50   Input ~ 0
+EEPROM_SDA
+Wire Wire Line
+	8750 4000 8850 4000
+Text HLabel 8850 4000 2    50   Input ~ 0
+EEPROM_SCL
+$Comp
+L Device:C_Small C?
+U 1 1 60211852
+P 7350 4000
+AR Path="/5FAC00ED/60211852" Ref="C?"  Part="1" 
+AR Path="/60EBB99E/60211852" Ref="C?"  Part="1" 
+AR Path="/602025D1/60211852" Ref="C?"  Part="1" 
+F 0 "C?" H 7442 4046 50  0000 L CNN
+F 1 "100n" H 7442 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 4000 50  0001 C CNN
+F 3 "~" H 7350 4000 50  0001 C CNN
+	1    7350 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4300 8350 4400
+Wire Wire Line
+	8350 4400 7850 4400
+Wire Wire Line
+	7850 4400 7850 4100
+Wire Wire Line
+	7850 4100 7950 4100
+Wire Wire Line
+	7950 4000 7850 4000
+Wire Wire Line
+	7850 4000 7850 4100
+Connection ~ 7850 4100
+Wire Wire Line
+	8350 4500 8350 4400
+Connection ~ 8350 4400
+Wire Wire Line
+	8350 3400 7650 3400
+Wire Wire Line
+	7350 4100 7350 4400
+Wire Wire Line
+	7350 4400 7850 4400
+Connection ~ 7850 4400
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6021186A
+P 7350 3300
+AR Path="/60EBB99E/6021186A" Ref="#PWR?"  Part="1" 
+AR Path="/602025D1/6021186A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7350 3150 50  0001 C CNN
+F 1 "+3V3" H 7365 3473 50  0000 C CNN
+F 2 "" H 7350 3300 50  0001 C CNN
+F 3 "" H 7350 3300 50  0001 C CNN
+	1    7350 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3300 7350 3400
+Connection ~ 7350 3400
+Text HLabel 8850 4100 2    50   Input ~ 0
+EEPROM_WP2
+Wire Notes Line
+	7050 1450 7050 5000
+Wire Notes Line
+	9700 5000 9700 1450
+Text Notes 8300 1650 0    50   ~ 10
+EEPROM CAR & EEPROM BOARD
+$Comp
+L 00_MY_ELEMENTS:MicroSdCard_Aliexpress J?
+U 1 1 602266F2
+P 4050 3750
+F 0 "J?" H 4000 4467 50  0000 C CNN
+F 1 "MicroSdCard_Aliexpress" H 4000 4376 50  0000 C CNN
+F 2 "00_MY_ELEMENTS:MicroSDCard_Aliexpress" H 5200 4050 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 4050 3750 50  0001 C CNN
+	1    4050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4450 4950 4350
+Wire Wire Line
+	4950 4350 4850 4350
+Wire Wire Line
+	3150 3450 3050 3450
+Wire Wire Line
+	3150 3550 3050 3550
+Wire Wire Line
+	3150 3650 3050 3650
+Wire Wire Line
+	3150 3850 3050 3850
+Wire Wire Line
+	3150 4050 3050 4050
+Wire Wire Line
+	3150 4150 3050 4150
+Wire Wire Line
+	3150 4300 3050 4300
+$Comp
+L Device:C_Small C?
+U 1 1 602310EE
+P 4750 1800
+AR Path="/5FAC00ED/602310EE" Ref="C?"  Part="1" 
+AR Path="/60EBB99E/602310EE" Ref="C?"  Part="1" 
+AR Path="/602025D1/602310EE" Ref="C?"  Part="1" 
+F 0 "C?" H 4842 1846 50  0000 L CNN
+F 1 "100n" H 4842 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 1800 50  0001 C CNN
+F 3 "~" H 4750 1800 50  0001 C CNN
+	1    4750 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60232229
+P 4400 1800
+AR Path="/5FAC00ED/60232229" Ref="C?"  Part="1" 
+AR Path="/60EBB99E/60232229" Ref="C?"  Part="1" 
+AR Path="/602025D1/60232229" Ref="C?"  Part="1" 
+F 0 "C?" H 4492 1846 50  0000 L CNN
+F 1 "100n" H 4492 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4400 1800 50  0001 C CNN
+F 3 "~" H 4400 1800 50  0001 C CNN
+	1    4400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 602332BF
+P 4050 1800
+AR Path="/5FAC00ED/602332BF" Ref="C?"  Part="1" 
+AR Path="/60EBB99E/602332BF" Ref="C?"  Part="1" 
+AR Path="/602025D1/602332BF" Ref="C?"  Part="1" 
+F 0 "C?" H 4142 1846 50  0000 L CNN
+F 1 "100n" H 4142 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4050 1800 50  0001 C CNN
+F 3 "~" H 4050 1800 50  0001 C CNN
+	1    4050 1800
+	1    0    0    -1  
+$EndComp
+Text HLabel 3050 3450 0    50   Input ~ 0
+SDIO_DATA2
+Text HLabel 3050 3550 0    50   Input ~ 0
+SDIO_DATA3
+Text HLabel 3050 3650 0    50   Input ~ 0
+SDIO_CMD
+Text HLabel 3050 3850 0    50   Input ~ 0
+SDIO_CLK
+Text HLabel 3050 4150 0    50   Input ~ 0
+SDIO_DATA1
+Text HLabel 3050 4050 0    50   Input ~ 0
+SDIO_DATA0
+Text HLabel 3050 4300 0    50   Input ~ 0
+MICROSD_DETECT
+Wire Wire Line
+	4750 1700 4750 1600
+Wire Wire Line
+	4750 1600 4400 1600
+Wire Wire Line
+	4400 1600 4400 1700
+Wire Wire Line
+	4400 1600 4050 1600
+Wire Wire Line
+	4050 1600 4050 1700
+Connection ~ 4400 1600
+Wire Wire Line
+	4050 1900 4050 2000
+Wire Wire Line
+	4050 2000 4400 2000
+Wire Wire Line
+	4400 2000 4400 1900
+Wire Wire Line
+	4400 2000 4750 2000
+Wire Wire Line
+	4750 2000 4750 1900
+Connection ~ 4400 2000
+Wire Wire Line
+	2250 3950 2250 4050
+Wire Wire Line
+	2250 3950 3150 3950
+$Comp
+L power:GND #PWR?
+U 1 1 60242BCA
+P 2250 4050
+AR Path="/60EBB99E/60242BCA" Ref="#PWR?"  Part="1" 
+AR Path="/602025D1/60242BCA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2250 3800 50  0001 C CNN
+F 1 "GND" H 2255 3877 50  0000 C CNN
+F 2 "" H 2250 4050 50  0001 C CNN
+F 3 "" H 2250 4050 50  0001 C CNN
+	1    2250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 602442F2
+P 4400 2100
+AR Path="/60EBB99E/602442F2" Ref="#PWR?"  Part="1" 
+AR Path="/602025D1/602442F2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4400 1850 50  0001 C CNN
+F 1 "GND" H 4405 1927 50  0000 C CNN
+F 2 "" H 4400 2100 50  0001 C CNN
+F 3 "" H 4400 2100 50  0001 C CNN
+	1    4400 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2000 4400 2100
+Wire Wire Line
+	4400 1600 4400 1500
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60248F4D
+P 4400 1500
+AR Path="/60EBB99E/60248F4D" Ref="#PWR?"  Part="1" 
+AR Path="/602025D1/60248F4D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4400 1350 50  0001 C CNN
+F 1 "+3V3" H 4415 1673 50  0000 C CNN
+F 2 "" H 4400 1500 50  0001 C CNN
+F 3 "" H 4400 1500 50  0001 C CNN
+	1    4400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 60251C34
+P 3200 2000
+F 0 "Q?" H 3405 1954 50  0000 L CNN
+F 1 "P_Mosfet" H 3405 2045 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 2100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3401A_C15127.pdf" H 3200 2000 50  0001 C CNN
+F 4 "C15127" H 3200 2000 50  0001 C CNN "LCSC"
+	1    3200 2000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4050 1600 3300 1600
+Connection ~ 4050 1600
+Wire Wire Line
+	3300 2300 3300 2200
+$Comp
+L Device:R_Small R?
+U 1 1 602667B0
+P 7650 3700
+AR Path="/5FAC00ED/602667B0" Ref="R?"  Part="1" 
+AR Path="/60EBB99E/602667B0" Ref="R?"  Part="1" 
+AR Path="/602025D1/602667B0" Ref="R?"  Part="1" 
+F 0 "R?" H 7709 3746 50  0000 L CNN
+F 1 "10k" H 7709 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7650 3700 50  0001 C CNN
+F 3 "~" H 7650 3700 50  0001 C CNN
+	1    7650 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3400 8350 3700
+Wire Wire Line
+	7350 3400 7350 3900
+Wire Wire Line
+	7950 3900 7650 3900
+Wire Wire Line
+	7650 3900 7650 3800
+Wire Wire Line
+	7650 3600 7650 3400
+Connection ~ 7650 3400
+Wire Wire Line
+	7650 3400 7350 3400
+$Comp
+L Device:R_Small R?
+U 1 1 6027334C
+P 2800 1800
+AR Path="/5FAC00ED/6027334C" Ref="R?"  Part="1" 
+AR Path="/60EBB99E/6027334C" Ref="R?"  Part="1" 
+AR Path="/602025D1/6027334C" Ref="R?"  Part="1" 
+F 0 "R?" H 2859 1846 50  0000 L CNN
+F 1 "1k" H 2859 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2800 1800 50  0001 C CNN
+F 3 "~" H 2800 1800 50  0001 C CNN
+	1    2800 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1600 3300 1800
+Wire Wire Line
+	3000 2000 2800 2000
+Wire Wire Line
+	2800 2000 2800 1900
+Wire Wire Line
+	2800 1700 2800 1600
+Wire Wire Line
+	2800 1600 3300 1600
+Connection ~ 3300 1600
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 6027E981
+P 2700 2400
+F 0 "Q?" H 2891 2446 50  0000 L CNN
+F 1 "NPN" H 2891 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 2500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-SS8050_C2150.pdf" H 2700 2400 50  0001 C CNN
+F 4 "C2150" H 2700 2400 50  0001 C CNN "LCSC"
+	1    2700 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2300 3400 2300
+Wire Wire Line
+	2800 2200 2800 2000
+Connection ~ 2800 2000
+$Comp
+L Device:R_Small R?
+U 1 1 60292520
+P 2300 2400
+AR Path="/5FAC00ED/60292520" Ref="R?"  Part="1" 
+AR Path="/60EBB99E/60292520" Ref="R?"  Part="1" 
+AR Path="/602025D1/60292520" Ref="R?"  Part="1" 
+F 0 "R?" V 2350 2500 50  0000 L CNN
+F 1 "1k" V 2350 2200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 2400 50  0001 C CNN
+F 3 "~" H 2300 2400 50  0001 C CNN
+	1    2300 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 2400 2100 2400
+Wire Wire Line
+	2800 2600 2800 2700
+$Comp
+L power:GND #PWR?
+U 1 1 60299077
+P 2800 2700
+AR Path="/60EBB99E/60299077" Ref="#PWR?"  Part="1" 
+AR Path="/602025D1/60299077" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 2450 50  0001 C CNN
+F 1 "GND" H 2805 2527 50  0000 C CNN
+F 2 "" H 2800 2700 50  0001 C CNN
+F 3 "" H 2800 2700 50  0001 C CNN
+	1    2800 2700
+	1    0    0    -1  
+$EndComp
+Text Label 3400 2300 0    50   ~ 0
+MicroSd_Power
+Text Label 3050 3750 2    50   ~ 0
+MicroSd_Power
+Wire Wire Line
+	3150 3750 3050 3750
+Text HLabel 2100 2400 0    50   Input ~ 0
+PowerOn_MICROSD
+$Comp
+L Device:LED D?
+U 1 1 602ABF3C
+P 4150 2600
+F 0 "D?" H 4143 2345 50  0000 C CNN
+F 1 "LED" H 4143 2436 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4150 2600 50  0001 C CNN
+F 3 "~" H 4150 2600 50  0001 C CNN
+	1    4150 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 602B2009
+P 3550 2600
+AR Path="/5FAC00ED/602B2009" Ref="R?"  Part="1" 
+AR Path="/60EBB99E/602B2009" Ref="R?"  Part="1" 
+AR Path="/602025D1/602B2009" Ref="R?"  Part="1" 
+F 0 "R?" V 3600 2700 50  0000 L CNN
+F 1 "470" V 3600 2400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3550 2600 50  0001 C CNN
+F 3 "~" H 3550 2600 50  0001 C CNN
+	1    3550 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 2400 2500 2400
+Wire Wire Line
+	3450 2600 3300 2600
+Connection ~ 3300 2300
+$Comp
+L power:GND #PWR?
+U 1 1 602C0814
+P 4450 2700
+AR Path="/60EBB99E/602C0814" Ref="#PWR?"  Part="1" 
+AR Path="/602025D1/602C0814" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4450 2450 50  0001 C CNN
+F 1 "GND" H 4455 2527 50  0000 C CNN
+F 2 "" H 4450 2700 50  0001 C CNN
+F 3 "" H 4450 2700 50  0001 C CNN
+	1    4450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2600 4450 2700
+Wire Wire Line
+	4450 2600 4300 2600
+Text Notes 2800 1400 0    50   ~ 0
+Voltage Supply Control for MicroSD
+Wire Notes Line
+	1300 1100 1300 4750
+Wire Notes Line
+	1300 4750 5150 4750
+Wire Notes Line
+	5150 4750 5150 1100
+Wire Notes Line
+	5150 1100 1300 1100
+$Comp
+L power:GND #PWR?
+U 1 1 602E4738
+P 8350 2900
+AR Path="/60EBB99E/602E4738" Ref="#PWR?"  Part="1" 
+AR Path="/602025D1/602E4738" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8350 2650 50  0001 C CNN
+F 1 "GND" H 8355 2727 50  0000 C CNN
+F 2 "" H 8350 2900 50  0001 C CNN
+F 3 "" H 8350 2900 50  0001 C CNN
+	1    8350 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2300 3300 2600
+Wire Wire Line
+	3650 2600 4000 2600
+Wire Wire Line
+	8850 2500 8750 2500
+Wire Wire Line
+	8750 4100 8850 4100
+Wire Notes Line
+	9700 1450 7050 1450
+Wire Notes Line
+	7050 5000 9700 5000
+Text Notes 1800 1700 0    50   ~ 10
+MicroSD
+$EndSCHEMATC

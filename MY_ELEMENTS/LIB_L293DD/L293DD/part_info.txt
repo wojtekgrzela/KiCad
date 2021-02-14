@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=L293DD
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=20
+Version=5.1
+Released=2015-04-16 09:48:08
+Downloaded=2021-02-06 10:22:23
+3D=Y

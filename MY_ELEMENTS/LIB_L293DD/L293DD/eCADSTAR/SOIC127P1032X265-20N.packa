@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "L293DD"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-06-24-11:37:02)
+    (mountForm default
+        (footprintRef "SOIC127P1032X265-20N")
+        (spec "System")
+    )
+)

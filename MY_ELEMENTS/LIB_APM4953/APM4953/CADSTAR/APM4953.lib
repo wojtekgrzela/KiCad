@@ -1,0 +1,18 @@
+.APM4953 :1 ;P-Channel Enhancement Mode Power MOSFET
+SOIC127P600X175-8N
+*STM Q
+*NGS
+*PLB 1="S1" 2="G1" 3="S2" 4="G2" 5="D2_1" 6="D2_2" 7="D1_1" 8="D1_2"
+*MXP 8
+*DFN APM4953
+~!Manufacturer_Name (Guangdong Hottech)
+~!Manufacturer_Part_Number (APM4953)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/Guangdong-Hottech-4953_C181099.pdf)
+~!Height (1.75mm)
+~!3D_Model (APM4953)
+APM4953
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

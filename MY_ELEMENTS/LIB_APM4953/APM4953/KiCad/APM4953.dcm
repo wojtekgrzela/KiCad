@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP APM4953
+D P-Channel Enhancement Mode Power MOSFET
+K
+F https://datasheet.lcsc.com/szlcsc/Guangdong-Hottech-4953_C181099.pdf
+$ENDCMP
+#
+#End Doc Library

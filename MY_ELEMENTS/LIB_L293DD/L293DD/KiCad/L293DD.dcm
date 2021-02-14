@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L293DD
+D L293DD, Motor Driver, 4.5  36 V, 20-Pin SOIC
+K
+F https://www.st.com/resource/en/datasheet/l293d.pdf
+$ENDCMP
+#
+#End Doc Library

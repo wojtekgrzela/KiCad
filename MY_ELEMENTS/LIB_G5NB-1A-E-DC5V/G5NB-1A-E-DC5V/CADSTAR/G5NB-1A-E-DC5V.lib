@@ -1,0 +1,18 @@
+.G5NB-1A-E-DC5V :1
+G5NB1A4DC5
+*STM K
+*NGS
+*PLB 1="COIL_1" 2="COM" 3="NO" 4="COIL_2"
+*MXP 4
+*DFN G5NB-1A-E-DC5V
+~!Manufacturer_Name (Omron Electronics)
+~!Manufacturer_Part_Number (G5NB-1A-E-DC5V)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb.pdf)
+~!Height (15mm)
+~!3D_Model (G5NB-1A-E-DC5V)
+G5NB-1A-E-DC5V
+1.1!U 2.1!U 3.1!U 4.1!U 

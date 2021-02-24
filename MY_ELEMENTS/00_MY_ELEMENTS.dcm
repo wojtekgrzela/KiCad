@@ -5,6 +5,10 @@ D P-Channel Enhancement Mode Power MOSFET
 F https://datasheet.lcsc.com/szlcsc/Guangdong-Hottech-4953_C181099.pdf
 $ENDCMP
 #
+$CMP FRAM_MB85RC16
+F https://datasheet.lcsc.com/szlcsc/FUJITSU-MB85RC16PNF-G-JNERE1_C8739.pdf
+$ENDCMP
+#
 $CMP L293DD
 D L293DD, Motor Driver, 4.5  36 V, 20-Pin SOIC
 F https://www.st.com/resource/en/datasheet/l293d.pdf
@@ -14,6 +18,10 @@ $CMP MicroSdCard_Aliexpress
 D Micro SD Card Socket
 K connector SD microsd
 F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
+$CMP RELAY_G5NB-1A-E-DC5V
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb.pdf
 $ENDCMP
 #
 $CMP R_up_down

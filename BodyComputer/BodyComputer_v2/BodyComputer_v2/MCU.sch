@@ -2295,21 +2295,21 @@ OIL_PRESSURE_BIN
 Text HLabel 6400 9700 0    50   Input ~ 0
 CLUTCH_PEDAL
 Text HLabel 6400 9900 0    50   Input ~ 0
-IN_BINARY_1
-Text HLabel 6400 10000 0    50   Input ~ 0
-IN_BINARY_2
-Text HLabel 6400 10100 0    50   Input ~ 0
-IN_BINARY_3
-Text HLabel 6400 6900 0    50   Input ~ 0
-IN_BINARY_4
-Text HLabel 6400 7000 0    50   Input ~ 0
-IN_BINARY_5
-Text HLabel 9500 9300 2    50   Input ~ 0
-IN_BINARY_6
-Text HLabel 9500 9400 2    50   Input ~ 0
-IN_BINARY_7
-Text HLabel 9500 9500 2    50   Input ~ 0
 IN_BINARY_8
+Text HLabel 6400 10000 0    50   Input ~ 0
+IN_BINARY_7
+Text HLabel 6400 10100 0    50   Input ~ 0
+IN_BINARY_6
+Text HLabel 6400 6900 0    50   Input ~ 0
+IN_BINARY_5
+Text HLabel 6400 7000 0    50   Input ~ 0
+IN_BINARY_4
+Text HLabel 9500 9300 2    50   Input ~ 0
+IN_BINARY_3
+Text HLabel 9500 9400 2    50   Input ~ 0
+IN_BINARY_2
+Text HLabel 9500 9500 2    50   Input ~ 0
+IN_BINARY_1
 Text HLabel 9500 8800 2    50   Input ~ 0
 EN_ELECTRO_CLUTCH
 Text HLabel 9500 8900 2    50   Input ~ 0
@@ -2330,14 +2330,10 @@ Text HLabel 9500 10000 2    50   Input ~ 0
 WIPERS_SIG3_ON
 Text HLabel 9500 10100 2    50   Input ~ 0
 WIPERS_SIG2_ON
-Text HLabel 9500 7700 2    50   Input ~ 0
-RELAY_ON_1
 Text HLabel 9500 7800 2    50   Input ~ 0
-RELAY_ON_2
-Text HLabel 9500 7900 2    50   Input ~ 0
 RELAY_ON_3
-Text HLabel 9500 8000 2    50   Input ~ 0
-RELAY_ON_4
+Text HLabel 9500 7900 2    50   Input ~ 0
+RELAY_ON_2
 Text HLabel 6400 4900 0    50   Input ~ 0
 DC_5V_ENABLE
 Text HLabel 6400 5000 0    50   Input ~ 0
@@ -2858,31 +2854,31 @@ Connection ~ 2300 8150
 Connection ~ 2300 7150
 Connection ~ 2300 6150
 Text HLabel 6400 6700 0    50   Input ~ 0
-MOS_P_ON_5
+MOS_P_ON_4
 Text HLabel 6400 6600 0    50   Input ~ 0
-MOS_P_ON_6
+MOS_P_ON_3
 Text HLabel 6400 6500 0    50   Input ~ 0
-MOS_P_ON_7
+MOS_P_ON_2
 Text HLabel 6400 4000 0    50   Input ~ 0
 MOS_P_ON_8
 Text HLabel 6400 4200 0    50   Input ~ 0
-IN_BIN_9
+IN_BIN_17
 Text HLabel 9500 7000 2    50   Input ~ 0
-IN_BIN_10
+IN_BIN_16
 Text HLabel 9500 7200 2    50   Input ~ 0
-IN_BIN_11
+IN_BIN_15
 Text HLabel 9500 7300 2    50   Input ~ 0
-IN_BIN_12
+IN_BIN_14
 Text HLabel 9500 7600 2    50   Input ~ 0
 IN_BIN_13
 Text HLabel 6400 7900 0    50   Input ~ 0
-IN_BIN_14
+IN_BIN_12
 Text HLabel 6400 8000 0    50   Input ~ 0
-IN_BIN_15
+IN_BIN_11
 Text HLabel 6400 8100 0    50   Input ~ 0
-IN_BIN_16
+IN_BIN_10
 Text HLabel 9500 8700 2    50   Input ~ 0
-IN_BIN_17
+IN_BIN_9
 NoConn ~ 6400 4700
 NoConn ~ 6400 4800
 NoConn ~ 6400 4300
@@ -2895,8 +2891,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 10750 2150 10700
 Connection ~ 2150 10700
-Text HLabel 6400 4400 0    50   Input ~ 0
-FAN_BOARD
 NoConn ~ 6400 4500
 $Comp
 L Device:Q_NMOS_GSD Q?
@@ -2989,11 +2983,7 @@ F 3 "" H 4500 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 5800 3650 5800
-Wire Wire Line
 	4500 5600 4500 5500
-Text HLabel 3650 5800 0    50   Input ~ 0
-FAN_BOARD
 $Comp
 L Connector_Generic:Conn_01x02 J802
 U 1 1 69690EAD
@@ -3202,4 +3192,14 @@ Wire Wire Line
 Connection ~ 1800 2650
 Text HLabel 9500 4800 2    50   Input ~ 0
 MICROSD_DETECT
+Text Label 6400 4400 2    50   ~ 0
+FAN_BOARD
+Text Label 3600 5800 2    50   ~ 0
+FAN_BOARD
+Wire Wire Line
+	3600 5800 3800 5800
+Text HLabel 9500 8000 2    50   Input ~ 0
+RELAY_ON_1
+Text HLabel 9500 7700 2    50   Input ~ 0
+RELAY_ON_4
 $EndSCHEMATC

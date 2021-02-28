@@ -535,7 +535,7 @@ Text HLabel 8100 8200 2    50   Input ~ 0
 ENC1_BUTTON
 Wire Wire Line
 	3100 8200 2900 8200
-Text Label 1750 8200 2    50   ~ 0
+Text Label 6750 8200 2    50   ~ 0
 ENC1_BUTTON_IN
 $Comp
 L Device:C_Small C?
@@ -707,7 +707,7 @@ Text HLabel 3100 8200 2    50   Input ~ 0
 ENC1_CH_B
 Wire Wire Line
 	8100 8200 7900 8200
-Text Label 6750 8200 2    50   ~ 0
+Text Label 1750 8200 2    50   ~ 0
 ENC1_CH_B_IN
 $Comp
 L Device:C_Small C?
@@ -793,7 +793,7 @@ Text HLabel 8100 9700 2    50   Input ~ 0
 ENC2_BUTTON
 Wire Wire Line
 	3100 9700 2900 9700
-Text Label 1750 9700 2    50   ~ 0
+Text Label 6750 9700 2    50   ~ 0
 ENC2_BUTTON_IN
 $Comp
 L Device:C_Small C?
@@ -965,7 +965,7 @@ Text HLabel 3100 9700 2    50   Input ~ 0
 ENC2_CH_B
 Wire Wire Line
 	8100 9700 7900 9700
-Text Label 6750 9700 2    50   ~ 0
+Text Label 1750 9700 2    50   ~ 0
 ENC2_CH_B_IN
 $Comp
 L Connector:DB9_Female_MountingHoles J502
@@ -980,7 +980,7 @@ F 3 "https://pl.aliexpress.com/item/32972036701.html?spm=a2g0s.9042311.0.0.6c0e4
 $EndComp
 Text Label 4250 8200 2    50   ~ 0
 ENC1_CH_A_IN
-Text Label 5300 6250 2    50   ~ 0
+Text Label 5300 6350 2    50   ~ 0
 ENC2_CH_B_IN
 Wire Wire Line
 	5400 5650 5300 5650
@@ -1245,11 +1245,11 @@ Wire Wire Line
 	1150 5950 1150 6150
 Text Label 5300 6450 2    50   ~ 0
 ENC2_CH_A_IN
-Text Label 5300 6350 2    50   ~ 0
+Text Label 5300 6250 2    50   ~ 0
 ENC2_BUTTON_IN
-Text Label 5300 5850 2    50   ~ 0
-ENC1_CH_B_IN
 Text Label 5300 5750 2    50   ~ 0
+ENC1_CH_B_IN
+Text Label 5300 5850 2    50   ~ 0
 ENC1_BUTTON_IN
 Wire Wire Line
 	1150 5750 2150 5750

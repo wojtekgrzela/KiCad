@@ -640,7 +640,7 @@ Clutch Pedal Press Signal
 Text Notes 2700 8250 0    50   ~ 10
 Brake Pedal Press Signal
 Text HLabel 2750 5500 0    50   Input ~ 0
-ADC_FUEL_POSITION
+ADC_FUEL_LEVEL
 $Comp
 L power:GND #PWR?
 U 1 1 61F0FF14
@@ -759,10 +759,6 @@ F 3 "" H 2100 10000 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	4050 10050 4050 10350
-Wire Notes Line
-	2950 10350 2950 10050
-Wire Notes Line
-	2950 9750 2950 9450
 Wire Notes Line
 	4450 9450 4450 9750
 Wire Notes Line
